@@ -13,7 +13,7 @@
             <StackLayout VerticalOptions="CenterAndExpand"
                          HorizontalOptions="CenterAndExpand"/>
             <Picker x:Name="pickerXAML"
-                    Title="select your vaccine"
+                    Title="select your vaccine" 
                     TitleColor="Black"
                     SelectedItem="{Binding SelectedItem}"
                     VerticalOptions="FillAndExpand"
@@ -29,7 +29,9 @@
             </Picker>
             <Button BackgroundColor="Transparent"
                     ImageSource="{Binding SubmitButton}"
-                    Command="{Binding OnSubmitClicked}"
+                    Command="{Binding OnSubmitClicked}">
+                
+            </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
